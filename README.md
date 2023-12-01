@@ -1,12 +1,13 @@
-#
-#FEDAssignment1
+# FEDAssignment1
 This is my FED assignment 1 project
 StudentLife@ School Of InfoComm Technology
 StudentLife@School of InfoComm Technology is your go-to platform for simplifying student life! Tired of drowning in a sea of emails? Our website is your solution, offering a centralized hub to effortlessly discover and sign up for the latest events. We go beyond events, providing valuable insights into your faculty and course details. Moreover, you can say goodbye to long queues at the IT helpdesk – we have come up with an innovative online queue system which lets you secure your queue number at anytime, anywhere. StudentLife@School of InfoComm Technology is here to streamline your academic journey, ensuring you stay informed and make the most of your time at the School of InfoComm Technology. Find out more about our website at our NOW!!
-#Design Process
+
+## Design Process
 This website is made for students as a one-stop website that offers useful information for students at the School of InfoComm Technology. This website will allow students to view the latest events, find the respective sign-up links to them and all information regarding the event. As a student, I am currently receiving information about events opened for students to sign up through the school email and it is very easy to overlook the emails due to the high amounts of emails we receive daily, such as assignment confirmation emails or linkedin emails. This website would solve my problem of sifting through the emails to find out about the events and their sign-up links. This website also offers information regarding the faculty which can be useful to students who wish to find out more about their course and also an online queue system that allows you to get your queue number for the IT helpdesk and see how many people is waiting in line infront of you. As a student, I have to head down to IT helpdesk to get a queue number now before I can approach the people at the IT helpdesk which may not necessarily be as efficient. If there is a lot of people there, I would have to wait for a very long time but if there is an online booking system, I can get a queue number in advance and head there only when my queue number is about to reach. This website can allow students to access all the resources they need for their academic life at the School of InfoComm Technology.
-#Features
-#Existing Features
+
+## Features
+# Existing Features
 1.	Navigation Headers for Faculty Information, IT Helpdesk, and Student Matters:
 •	Description: These headers enable users to navigate to specific sections of the webpage with a single click, providing quick access to relevant information.
 •	Purpose: Facilitates seamless navigation, allowing users to find information related to their courses, IT support, and student services efficiently.
@@ -32,7 +33,8 @@ Features Left to Implement:
 This section to discuss plans for additional features to be implemented in the future:
 1.	User Authentication and Personalized Dashboard:
 Description: Implement user authentication to allow students to log in, providing a personalized dashboard with tailored information, event recommendations, and a history of interactions.
-Technologies Used
+
+## Technologies Used
 This section contains languages, frameworks, libraries, and any other tools used to construct this project. 
 1.	HTML, CSS, and JavaScript:
 •	Usage: Core technologies for structuring, styling, and adding interactivity to web pages.
