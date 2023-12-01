@@ -97,4 +97,3 @@ function submitForm() {
         alert("Form submitted!\nName: " + name + "\nStudent ID: " + studentId + "\nMobile Number: " + mobileNumber + "\nDate and Time: " + dateTime);
     }
 }
-
