@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Helpdesk Appointment Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: lightgray; /* Set the background color for Website 2 */
+        }
+        button:hover {
+            background-color: #378b3b;
+        }
+    </style>
+</head>
+<body>
+    <div class="booking-title">
+        <h4>IT Helpdesk Appointment Form</h4>
+    </div>
+    <form id="userForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="studentId">Student ID (without last letter):</label>
+        <input type="text" id="studentId" name="studentId" required>
+
+        <label for="mobileNumber">Mobile Number:</label>
+        <input type="tel" id="mobileNumber" name="mobileNumber" pattern="[0-9]{8}" required>
+        <small>Enter a 8-digit mobile number.</small>
+
+        <label for="dateTime">Date and Time:</label>
+        <input type="datetime-local" id="dateTime" name="dateTime" required>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
