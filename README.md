@@ -3,11 +3,11 @@ This is my FED assignment 1 project
 StudentLife@ School Of InfoComm Technology
 StudentLife@School of InfoComm Technology is your go-to platform for simplifying student life! Tired of drowning in a sea of emails? Our website is your solution, offering a centralized hub to effortlessly discover and sign up for the latest events. We go beyond events, providing valuable insights into your faculty and course details. Moreover, you can say goodbye to long queues at the IT helpdesk – we have come up with an innovative online queue system which lets you secure your queue number at anytime, anywhere. StudentLife@School of InfoComm Technology is here to streamline your academic journey, ensuring you stay informed and make the most of your time at the School of InfoComm Technology. Find out more about our website at our NOW!!
 
-## Design Process
+# Design Process
 This website is made for students as a one-stop website that offers useful information for students at the School of InfoComm Technology. This website will allow students to view the latest events, find the respective sign-up links to them and all information regarding the event. As a student, I am currently receiving information about events opened for students to sign up through the school email and it is very easy to overlook the emails due to the high amounts of emails we receive daily, such as assignment confirmation emails or linkedin emails. This website would solve my problem of sifting through the emails to find out about the events and their sign-up links. This website also offers information regarding the faculty which can be useful to students who wish to find out more about their course and also an online queue system that allows you to get your queue number for the IT helpdesk and see how many people is waiting in line infront of you. As a student, I have to head down to IT helpdesk to get a queue number now before I can approach the people at the IT helpdesk which may not necessarily be as efficient. If there is a lot of people there, I would have to wait for a very long time but if there is an online booking system, I can get a queue number in advance and head there only when my queue number is about to reach. This website can allow students to access all the resources they need for their academic life at the School of InfoComm Technology.
 
-## Features
-# Existing Features
+# Features
+## Existing Features
 1.	Navigation Headers for Faculty Information, IT Helpdesk, and Student Matters:
 •	Description: These headers enable users to navigate to specific sections of the webpage with a single click, providing quick access to relevant information.
 •	Purpose: Facilitates seamless navigation, allowing users to find information related to their courses, IT support, and student services efficiently.
@@ -29,12 +29,13 @@ This website is made for students as a one-stop website that offers useful infor
 7.	Footer:
 •	Description: The footer displays copyright information, providing essential details about the website's ownership.
 •	Purpose: Offers transparency regarding copyright status and ownership of the website.
-Features Left to Implement:
+
+## Features Left to Implement:
 This section to discuss plans for additional features to be implemented in the future:
 1.	User Authentication and Personalized Dashboard:
 Description: Implement user authentication to allow students to log in, providing a personalized dashboard with tailored information, event recommendations, and a history of interactions.
 
-## Technologies Used
+# Technologies Used
 This section contains languages, frameworks, libraries, and any other tools used to construct this project. 
 1.	HTML, CSS, and JavaScript:
 •	Usage: Core technologies for structuring, styling, and adding interactivity to web pages.
@@ -59,7 +60,8 @@ This section contains languages, frameworks, libraries, and any other tools used
 •	Usage: JavaScript for form validation, ensuring required fields are filled in before submission.
 10.	Scroll Into View (JavaScript):
 •	Usage: JavaScript used for smooth scrolling to different sections when navigation buttons are clicked.
-#Testing
+
+# Testing
 1.	YouTube Video Section: Resize Responsiveness
 i)	Access the website on a desktop.
 ii)	Observe the YouTube video section.
@@ -79,15 +81,16 @@ ix)	Fill out the form with valid inputs (name, student ID, mobile number, date, 
 x)	Submit the form
 xi)	Expected Result: A success message should appear, indicating that the queue number has been successfully booked.
 
-**Note:** Ensure that these scenarios are tested on different browsers and devices to account for variations in rendering and user experience. Additionally, it's essential to clear any previously stored form data between tests to ensure accurate results.
+Note: Ensure that these scenarios are tested on different browsers and devices to account for variations in rendering and user experience. Additionally, it's essential to clear any previously stored form data between tests to ensure accurate results.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-##Credits
-#Content
+## Credits
+# Content
 •	I did not copy any text content from any website.
-#Media
+
+# Media
 •	The photos used in this site were obtained from the school’s email or Instagram and google.
 ~ links ~
 https://www.youtube.com/embed/9WLK58uFkHU
@@ -99,7 +102,7 @@ https://www.np.edu.sg/schools-courses/academic-schools/school-of-infocomm-techno
 https://www.np.edu.sg/schools-courses/academic-schools/school-of-infocomm-technology/diploma-in-information-technology
 https://www.np.edu.sg/schools-courses/academic-schools/school-of-infocomm-technology/diploma-in-immersive-media
 
-#Acknowledgements
+# Acknowledgements
 •	I received inspiration for this project from the Ngee Ann Polytechnic Website where information is available for all students. However, the information on that website is not fully customised to each faculty.
 •	My website also received inspiration from the school’s Instagram page where information about certain events is sometimes shown there. 
 •	Another inspiration was from the ICT telegram bot, where the bot would send students some announcements but only to students who had subscribed to their telegram page.
