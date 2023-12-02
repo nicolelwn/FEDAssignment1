@@ -190,14 +190,7 @@ nav button:hover {
    right: 0;
    border-radius: 3px 0 0 3px;
 }
-
- #faculty-info p,
- #it-helpdesk p,
- #student-matters p {
-     font-weight: bold;
- }
  
-
 
 form {
    max-width: 400px;

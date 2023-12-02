@@ -59,9 +59,7 @@ function showAnnouncement(index) {
 }
 
 // Call the function to initialize the continuous slideshow when the page loads
-window.onload = function () {
-    initContinuousAnnouncementSlideshow();
-};
+initContinuousAnnouncementSlideshow();
 
 
 
