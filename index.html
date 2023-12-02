@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
+    <!-- link style.css and font links here-->
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,14 +17,16 @@
 
 <body>
 
+<!-- logo and title-->
     <div class="logo-container">
-        <img src="pictures/ICT_logo.jpeg" alt="ICT Logo" class="logo">
+        <img src="pictures/ICT logo.jpeg" class="logo">
         <div class="text-container">
             <h1>StudentLife@ School Of Infocomm Technology</h1>
             <h2>The One-Stop to Learn, Connect and Thrive in the Student Life Experience...</h2>
         </div>
     </div>
 
+<!-- navigation to each section-->
     <header>
         <nav>
             <button onclick="scrollToSection('faculty-info')">Faculty Information</button>
@@ -33,25 +36,24 @@
     </header>
 
 
-<!-- Light Purple Background Surrounding Everything -->
+<!-- container to include introduction and youtube videos -->
+<!-- youtube preview/selection-->
 <div class="video-slideshow-container">
-    <!-- Individual Video Containers -->
     <div class="video-container">
-        <iframe width="600" height="350" src="https://www.youtube.com/embed/9WLK58uFkHU" allowfullscreen></iframe>
+        <iframe width="600" height="350" src="https://www.youtube.com/embed/9WLK58uFkHU" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="video-container">
-        <iframe width="600" height="350" src="https://www.youtube.com/embed/Fr7g4SLHggM" allowfullscreen></iframe>
+        <iframe width="600" height="350" src="https://www.youtube.com/embed/Fr7g4SLHggM" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="video-container">
-        <iframe width="600" height="350" src="https://www.youtube.com/embed/gmbRvq48BQw" allowfullscreen></iframe>
+        <iframe width="600" height="350" src="https://www.youtube.com/embed/gmbRvq48BQw" frameborder="0" allowfullscreen></iframe>
     </div>
-    
 
-    <!-- Previous and Next Buttons -->
+    <!-- Previous and Next Buttons for Youtube video -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-    <!-- Welcome Paragraph -->
+    <!-- Introducing the website -->
     <div class="welcome-container">
         <p class="intro-paragraph">
             Welcome to our digital haven, StudentLife@School of InfoComm Technology! Navigating student life has never been easier. Say goodbye to the chaos of emails with our centralized hub, offering a seamless experience to discover and sign up for the latest events. Dive deeper into your academic world with insights into faculty and course details. No more queues at the IT helpdesk – our innovative online queue system lets you secure your place at your convenience. StudentLife is your guide to a streamlined academic journey, ensuring you stay informed and maximize your time at the School of InfoComm Technology.
@@ -59,6 +61,7 @@
     </div>
 </div>
 
+<!-- Announcements-->
 <section id="announcements">
     <h3>Announcements</h3>
     <div class="announcement-container">
@@ -66,15 +69,13 @@
         <img src="pictures/yep.png" width="500" height="700" alt="Announcement 2">
         <img src="pictures/SFF.jpg" width="500" height="700" alt="Announcement 3">
         <img src="pictures/oip.png" width="500" height="700" alt="Announcement 4">
-        <!-- Add more images as needed -->
     </div>
 </section>
 
 
-    <!-- Sections with IDs for Navigation -->
+    <!-- Faculty Information with IDs for Navigation -->
     <section id="faculty-info">
         <h3>Faculty Information</h3>
-        <!-- Content for Faculty Information -->
         <p>Common ICT - <a href="https://www.np.edu.sg/schools-courses/academic-schools/school-of-infocomm-technology/common-ict-programme" target="_blank">CICTP</a></p>
         <p>CyberSecurity & Digital Forensics - <a href="https://www.np.edu.sg/schools-courses/academic-schools/school-of-infocomm-technology/diploma-in-cybersecurity-digital-forensic" target="_blank">CSF</a></p>
         <p>Data Science - <a href="https://www.np.edu.sg/schools-courses/academic-schools/school-of-infocomm-technology/diploma-in-data-science" target="_blank">DS</a></p>
@@ -82,17 +83,18 @@
         <p>Immersive Media - <a href="https://www.np.edu.sg/schools-courses/academic-schools/school-of-infocomm-technology/diploma-in-immersive-media" target="_blank">IM</a></p>
     </section>
 
+     <!-- IT Helpdesk -->
     <section id="it-helpdesk">
         <h3>IT Helpdesk</h3>
-        <!-- Content for IT Helpdesk -->
         <p>Get your Queue Number <a href="booking.html" target="_blank">here</a></p>
     </section>
 
+    <!-- Student Matters -->
     <section id="student-matters">
         <h3>Student Matters</h3>
         <p>NPAL Website <a href="https://npalstudent.np.edu.sg/psp/student/?cmd=login" target="_blank">here</a></p>
     </section>
-        <!-- Content for Student Matters -->
+     
     <br>
     <br>
     <br>
@@ -106,4 +108,3 @@
 </body>
 
 </html>
-

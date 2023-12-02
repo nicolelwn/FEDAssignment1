@@ -22,15 +22,13 @@ function showSlides(n) {
 }
 
 function scrollToSection(sectionId) {
-    var section = document.getElementById(sectionId);s
+    var section = document.getElementById(sectionId);
     if (section) {
         section.scrollIntoView({
             behavior: 'smooth'
         });
     }
 }
-
-// script.js
 
 // Function to initialize the continuous slideshow
 function initContinuousAnnouncementSlideshow() {
@@ -42,7 +40,7 @@ function initContinuousAnnouncementSlideshow() {
         showAnnouncement(slideIndex);
         slideIndex++;
 
-        // Reset to the first image if at the end
+        // Reset to the first image if at the end, repeat display
         if (slideIndex >= announcementImages.length) {
             slideIndex = 0;
         }
@@ -67,20 +65,18 @@ window.onload = function () {
 
 
 
-//booking
+//booking.html
 function validateForm() {
     var name = document.getElementById("name").value;
     var studentId = document.getElementById("studentId").value;
     var mobileNumber = document.getElementById("mobileNumber").value;
     var dateTime = document.getElementById("dateTime").value;
 
-    // Custom JavaScript validation
+    // Make sure all fields are filled in
     if (name === "" || studentId === "" || mobileNumber === "" || dateTime === "") {
         alert("Please fill in all fields before submitting.");
         return false; // Prevent form submission
     }
-
-    // Your additional validation logic goes here
 
     return true; // Allow form submission
 }
