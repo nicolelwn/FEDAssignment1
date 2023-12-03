@@ -62,7 +62,6 @@ function showAnnouncement(index) {
 initContinuousAnnouncementSlideshow();
 
 
-
 //booking.html
 function validateForm() {
     var name = document.getElementById("name").value;
