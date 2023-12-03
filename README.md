@@ -41,6 +41,8 @@ This section to discuss plans for additional features to be implemented in the f
 1.	User Authentication and Personalized Dashboard:
 Description: Implement user authentication to allow students to log in, providing a personalized dashboard with tailored information, event recommendations, and a history of interactions.
 
+2.  Storing data of students information for IT helpdesk appointment system
+Description: Add a server for IT helpdesk to receive information of students submission of appointment date and time so that they can organise the information received for the IT professionals themselves to allocate them time to help each student during their appointment.
 # Technologies Used
 This section contains languages, frameworks, libraries, and any other tools used to construct this project. 
 1.	HTML, CSS, and JavaScript:
