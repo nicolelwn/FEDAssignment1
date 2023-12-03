@@ -43,6 +43,7 @@ Description: Implement user authentication to allow students to log in, providin
 
 2.  Storing data of students information for IT helpdesk appointment system
 Description: Add a server for IT helpdesk to receive information of students submission of appointment date and time so that they can organise the information received for the IT professionals themselves to allocate them time to help each student during their appointment.
+
 # Technologies Used
 This section contains languages, frameworks, libraries, and any other tools used to construct this project. 
 1.	HTML, CSS, and JavaScript:
@@ -68,7 +69,6 @@ This section contains languages, frameworks, libraries, and any other tools used
 •	Usage: JavaScript for form validation, ensuring required fields are filled in before submission.
 10.	Scroll Into View (JavaScript):
 •	Usage: JavaScript used for smooth scrolling to different sections when navigation buttons are clicked.
-#Testing
 
 # Testing
 1.	YouTube Video Section: Resize Responsiveness
@@ -96,10 +96,6 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-##Credits
-#Content
-•	I did not copy any text content from any website.
-#Media
 ## Credits
 # Content
 •	I did not copy any text content from any website.
@@ -116,7 +112,6 @@ https://www.np.edu.sg/schools-courses/academic-schools/school-of-infocomm-techno
 https://www.np.edu.sg/schools-courses/academic-schools/school-of-infocomm-technology/diploma-in-information-technology
 https://www.np.edu.sg/schools-courses/academic-schools/school-of-infocomm-technology/diploma-in-immersive-media
 
-#Acknowledgements
 # Acknowledgements
 •	I received inspiration for this project from the Ngee Ann Polytechnic Website where information is available for all students. However, the information on that website is not fully customised to each faculty.
 •	My website also received inspiration from the school’s Instagram page where information about certain events is sometimes shown there. 
